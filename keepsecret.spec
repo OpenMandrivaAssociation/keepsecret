@@ -1,8 +1,8 @@
 %define stable %([ "$(echo %{version} |cut -d. -f3)" -ge 70 ] && echo -n un; echo -n stable)
 
 Name:		keepsecret
-Version:	26.08.1
-Release:	2
+Version:	26.08.2
+Release:	1
 Source0:	https://download.kde.org/%{stable}/release-service/%{version}/src/%{name}-%{version}.tar.xz
 Summary:	Password manager for Secret Service
 URL:		https://apps.kde.org/keepsecret/
